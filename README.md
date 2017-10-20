@@ -1,2 +1,3 @@
 # ANFFLA_TEST
-dev branch
+
+Landmark trainer for fire lookouts.
