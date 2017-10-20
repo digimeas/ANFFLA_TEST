@@ -1,0 +1,1555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+  <name>Vetter Sightlines Earth.kml</name>
+  <open>1</open>
+
+  <StyleMap id="vetter_style">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#vetter_style_n</styleUrl>
+      </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#vetter_style_h</styleUrl>
+      </Pair>
+    </StyleMap>
+
+  <Style id="vetter_style_n">
+    <IconStyle>
+      <color>aaaaffaa</color>
+      <scale>1.0</scale>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
+        </Icon>
+      </IconStyle>
+    <LabelStyle>
+      <color>80ffffff</color>
+      <scale>0.8</scale>
+      </LabelStyle>
+    <LineStyle>
+      <color>aaaaffaa</color>
+      <width>1.5</width>
+      </LineStyle>
+    </Style>
+
+  <Style id="vetter_style_h">
+    <IconStyle>
+      <color>aaaaffaa</color>
+      <scale>2.5</scale>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
+        </Icon>
+      </IconStyle>
+    <LabelStyle>
+      <color>80ffffff</color>
+      <scale>1.33333</scale>
+      </LabelStyle>
+    <LineStyle>
+      <color>aaaaffaa</color>
+      <width>3</width>
+      </LineStyle>
+    </Style>
+
+
+  <Folder>
+
+    <name>Vetter Mountain Sightlines + Cards</name>
+    <open>1</open>
+
+    <Placemark>
+      <name>Vetter Mtn FLO</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Vetter/Links/Vetter-Mountain-Lookout4.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.028577</longitude>
+        <latitude>34.297066</latitude>
+        <altitude>3</altitude>
+        <heading>0.0</heading>
+        <tilt>0</tilt>
+        <range>1000</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        </LookAt>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-118.028577,34.297066,3</coordinates>
+        </Point>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+
+
+    <Placemark>
+      <name>005 Mt Hilyer</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Vetter/Cards/005 Mt Hillyer.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.028577</longitude>
+        <latitude>34.297066</latitude>
+        <altitude>3</altitude>
+        <heading>8</heading>
+        <tilt>80</tilt>
+        <range>50</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        </LookAt>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-118.020580,34.345033,3</coordinates>
+        </Point>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+    <Placemark>
+      <name>005 Mt Hilyer</name>
+      <description>Dist: 4 mi</description>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.028577,34.297066,3 -118.020580,34.345033,3
+          </coordinates>
+        </LineString>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+
+
+    <Placemark>
+      <name>014 Bare Mtn</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Vetter/Cards/014 Bare Mtn.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.028577</longitude>
+        <latitude>34.297066</latitude>
+        <altitude>3</altitude>
+        <heading>17</heading>
+        <tilt>80</tilt>
+        <range>50</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        </LookAt>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-117.991852,34.398076,3</coordinates>
+        </Point>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+    <Placemark>
+      <name>014 Bare Mtn</name>
+      <description>Dist: 7.5 mi</description>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.028577,34.297066,3  -117.991852,34.398076,3
+          </coordinates>
+        </LineString>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+
+    <Placemark>
+      <name>022 Lower Chilao CG</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Vetter/Cards/022 Lower Chilao CG.jpg"/>]]></description>
+      <LookAt>
+        <longitude>-118.028577</longitude>
+        <latitude>34.297066</latitude>
+        <altitude>3</altitude>
+        <heading>24</heading>
+        <tilt>80</tilt>
+        <range>50</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        </LookAt>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-118.015413,34.320912,3</coordinates>
+        </Point>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+    <Placemark>
+      <name>022 Lower Chilao CG</name>
+      <description>Dist: 1.9 mi</description>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.028577,34.297066,3  -118.015413,34.320912,3
+          </coordinates>
+        </LineString>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+
+    <Placemark>
+      <name>036 Winston Ridge</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Vetter/Cards/036 Winston Ridge.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.028577</longitude>
+        <latitude>34.297066</latitude>
+        <altitude>3</altitude>
+        <heading>39</heading>
+        <tilt>80</tilt>
+        <range>50</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        </LookAt>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-117.950033,34.377103,3</coordinates>
+        </Point>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+    <Placemark>
+      <name>036 Winston Ridge</name>
+      <description>Dist: 7.4 mi</description>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.028577,34.297066,3  -117.950033,34.377103,3
+          </coordinates>
+        </LineString>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+
+    <Placemark>
+      <name>40 Three Points</name>
+      <description>Dist: 4 mi</description>
+      <LookAt>
+        <longitude>-118.028577</longitude>
+        <latitude>34.297066</latitude>
+        <altitude>3</altitude>
+        <heading>40</heading>
+        <tilt>80</tilt>
+        <range>50</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        </LookAt>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-117.982398,34.342940,3</coordinates>
+        </Point>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+    <Placemark>
+      <name>40 Three Points</name>
+      <description>Dist: 4.3 mi</description>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.028577,34.297066,3 -117.982398,34.342940,3
+          </coordinates>
+        </LineString>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+
+    <Placemark>
+      <name>043 Pleasant View Ridge</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Vetter/Cards/043 Pleasant View Ridge.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.028577</longitude>
+        <latitude>34.297066</latitude>
+        <altitude>3</altitude>
+        <heading>46</heading>
+        <tilt>80</tilt>
+        <range>50</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </LookAt>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-117.909379,34.389968,3</coordinates>
+        </Point>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+    <Placemark>
+      <name>043 Pleasant View Ridge</name>
+      <description>Dist: 10 mi</description>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.028577,34.297066,3 -117.909379,34.389968,3
+          </coordinates>
+        </LineString>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+
+    <Placemark>
+      <name>059 Waterman Mtn</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Vetter/Cards/059 Waterman Mtn.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.028577</longitude>
+        <latitude>34.297066</latitude>
+        <altitude>3</altitude>
+        <heading>62</heading>
+        <tilt>80</tilt>
+        <range>50</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </LookAt>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-117.937201,34.336506,3</coordinates>
+        </Point>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+    <Placemark>
+      <name>059 Waterman Mtn</name>
+      <description>Dist: 6.25 mi</description>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.028577,34.297066,3 -117.937201,34.336506,3
+          </coordinates>
+        </LineString>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+
+    <Placemark>
+      <name>060 Mt Mooney</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Vetter/Cards/060 Mt Mooney.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.028577</longitude>
+        <latitude>34.297066</latitude>
+        <altitude>3</altitude>
+        <heading>63</heading>
+        <tilt>80</tilt>
+        <range>50</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </LookAt>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-118.007126,34.305849,3</coordinates>
+        </Point>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+    <Placemark>
+      <name>060 Mt Mooney</name>
+      <description>Dist: 1.75 mi</description>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.028577,34.297066,3 -118.007126,34.305849,3
+          </coordinates>
+        </LineString>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+
+    <Placemark>
+      <name>067 Dawson Saddle</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Vetter/Cards/067 Dawson Saddle.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.028577</longitude>
+        <latitude>34.297066</latitude>
+        <altitude>3</altitude>
+        <heading>69</heading>
+        <tilt>80</tilt>
+        <range>50</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </LookAt>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-117.804206,34.367846,3</coordinates>
+        </Point>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+    <Placemark>
+      <name>067 Dawson Saddle</name>
+      <description>Dist: 14 mi</description>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.028577,34.297066,3 -117.804206,34.367846,3
+          </coordinates>
+        </LineString>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+
+    <Placemark>
+      <name>074 Twin Peaks (West Peak)</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Vetter/Cards/074 Twin Peaks (West Peak).jpg">]]></description>
+      <LookAt>
+        <longitude>-118.028577</longitude>
+        <latitude>34.297066</latitude>
+        <altitude>3</altitude>
+        <heading>77</heading>
+        <tilt>80</tilt>
+        <range>50</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </LookAt>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-117.936900,34.315169,3</coordinates>
+        </Point>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+    <Placemark>
+      <name>074 Twin Peaks (West Peak)</name>
+      <description>Dist: 5.4 mi</description>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.028577,34.297066,3 -117.936900,34.315169,3
+          </coordinates>
+        </LineString>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+
+    <Placemark>
+      <name>082 South Mt Hawkins</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Vetter/Cards/082 South Mt Hawkins.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.028577</longitude>
+        <latitude>34.297066</latitude>
+        <altitude>3</altitude>
+        <heading>85</heading>
+        <tilt>80</tilt>
+        <range>50</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </LookAt>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-117.810370,34.312009,3</coordinates>
+        </Point>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+    <Placemark>
+      <name>082 South Mt Hawkins</name>
+      <description>Dist: 13 mi</description>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.028577,34.297066,3 -117.810370,34.312009,3
+          </coordinates>
+        </LineString>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+
+    <Placemark>
+      <name>084 Pine Mtn</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Vetter/Cards/084 Pine Mtn.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.028577</longitude>
+        <latitude>34.297066</latitude>
+        <altitude>3</altitude>
+        <heading>87</heading>
+        <tilt>80</tilt>
+        <range>50</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </LookAt>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-117.644585,34.313725,3</coordinates>
+        </Point>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+    <Placemark>
+      <name>084 Pine Mtn</name>
+      <description>Dist: 23 mi</description>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.028577,34.297066,3 -117.644585,34.313725,3
+          </coordinates>
+        </LineString>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+
+    <Placemark>
+      <name>085 Dawson Peak</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Vetter/Cards/085 Dawson Peak.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.028577</longitude>
+        <latitude>34.297066</latitude>
+        <altitude>3</altitude>
+        <heading>88</heading>
+        <tilt>80</tilt>
+        <range>50</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </LookAt>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-117.636731,34.303244,3</coordinates>
+        </Point>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+    <Placemark>
+      <name>085 Dawson Peak</name>
+      <description>Dist: 23.5 mi</description>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.028577,34.297066,3 -117.636731,34.303244,3
+          </coordinates>
+        </LineString>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+
+    <Placemark>
+      <name>088 Mt San Antonio</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Vetter/Cards/088 Mt San Antonio.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.028577</longitude>
+        <latitude>34.297066</latitude>
+        <altitude>3</altitude>
+        <heading>91</heading>
+        <tilt>80</tilt>
+        <range>50</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </LookAt>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-117.646919,34.288873,3</coordinates>
+        </Point>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+    <Placemark>
+      <name>088 Mt San Antonio</name>
+      <description>Dist: 22 mi</description>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.028577,34.297066,3 -117.646919,34.288873,3
+          </coordinates>
+        </LineString>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+
+    <Placemark>
+      <name>089 Iron Mtn (Big Iron)</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Vetter/Cards/089 Iron Mtn.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.028577</longitude>
+        <latitude>34.297066</latitude>
+        <altitude>3</altitude>
+        <heading>92</heading>
+        <tilt>80</tilt>
+        <range>50</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </LookAt>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-117.713680,34.288310,3</coordinates>
+        </Point>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+    <Placemark>
+      <name>089 Iron Mtn (Big Iron)</name>
+      <description>Dist: 18.5 mi</description>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.028577,34.297066,3 -117.713680,34.288310,3
+          </coordinates>
+        </LineString>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+
+    <Placemark>
+      <name>093 Telegraph Peak</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Vetter/Cards/093 Telegraph Peak.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.028577</longitude>
+        <latitude>34.297066</latitude>
+        <altitude>3</altitude>
+        <heading>96</heading>
+        <tilt>80</tilt>
+        <range>50</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </LookAt>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-117.598509,34.261606,3</coordinates>
+        </Point>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+    <Placemark>
+      <name>093 Telegraph Peak</name>
+      <description>Dist: 24.75 mi</description>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.028577,34.297066,3 -117.598509,34.261606,3
+          </coordinates>
+        </LineString>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+
+    <Placemark>
+      <name>095 Timber Mtn</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Vetter/Cards/095 Timber Mtn.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.028577</longitude>
+        <latitude>34.297066</latitude>
+        <altitude>3</altitude>
+        <heading>98</heading>
+        <tilt>80</tilt>
+        <range>50</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </LookAt>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-117.592446,34.244979,3</coordinates>
+        </Point>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+    <Placemark>
+      <name>095 Timber Mtn</name>
+      <description>Dist: 25.2 mi</description>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.028577,34.297066,3 -117.592446,34.244979,3
+          </coordinates>
+        </LineString>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+
+    <Placemark>
+      <name>123 Pine Mtn (Front Range)</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Vetter/Cards/123 Pine Mtn (Front Range).jpg">]]></description>
+      <LookAt>
+        <longitude>-118.028577</longitude>
+        <latitude>34.297066</latitude>
+        <altitude>3</altitude>
+        <heading>125</heading>
+        <tilt>80</tilt>
+        <range>50</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </LookAt>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-117.901763,34.223476,3</coordinates>
+        </Point>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+    <Placemark>
+      <name>123 Pine Mtn (Front Range)</name>
+      <description>Dist: 8.9 mi</description>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.028577,34.297066,3 -117.901763,34.223476,3
+          </coordinates>
+        </LineString>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+
+    <Placemark>
+      <name>146 Monrovia Peak</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Vetter/Cards/146 Monrovia Peak.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.028577</longitude>
+        <latitude>34.297066</latitude>
+        <altitude>3</altitude>
+        <heading>149</heading>
+        <tilt>80</tilt>
+        <range>50</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </LookAt>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-117.967964,34.214277,3</coordinates>
+        </Point>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+    <Placemark>
+      <name>146 Monrovia Peak</name>
+      <description>Dist: 7 1/4 mi</description>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.028577,34.297066,3 -117.967964,34.214277,3
+          </coordinates>
+        </LineString>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+
+    <Placemark>
+      <name>162 Clamshell Peak</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Vetter/Cards/162 Clamshell Peak.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.028577</longitude>
+        <latitude>34.297066</latitude>
+        <altitude>3</altitude>
+        <heading>165</heading>
+        <tilt>80</tilt>
+        <range>50</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </LookAt>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-117.998127,34.201919,3</coordinates>
+        </Point>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+    <Placemark>
+      <name>162 Clamshell Peak</name>
+      <description>Dist: 6.8 mi</description>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.028577,34.297066,3 -117.998127,34.201919,3
+          </coordinates>
+        </LineString>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+
+    <Placemark>
+      <name>166 Mt Sally</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Vetter/Cards/166 Mt Sally.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.028577</longitude>
+        <latitude>34.297066</latitude>
+        <altitude>3</altitude>
+        <heading>169</heading>
+        <tilt>80</tilt>
+        <range>50</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </LookAt>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-118.022271,34.270570,3</coordinates>
+        </Point>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+    <Placemark>
+      <name>166 Mt Sally</name>
+      <description>Dist: 1 mi.</description>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.028577,34.297066,3 -118.022271,34.270570,3
+          </coordinates>
+        </LineString>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+
+  	<Placemark>
+  		<name>177 Chantry Flat (not visible)</name>
+      <description>Dist: 7 mi</description>
+      <LookAt>
+        <longitude>-118.028577</longitude>
+        <latitude>34.297066</latitude>
+        <altitude>3</altitude>
+        <heading>180</heading>
+        <tilt>80</tilt>
+        <range>50</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        </LookAt>
+  		<styleUrl>#msn_triangle</styleUrl>
+  		<Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-118.022647,34.196291,3</coordinates>
+  		</Point>
+      <styleUrl>#vetter_style</styleUrl>
+  	</Placemark>
+
+    <Placemark>
+      <name>194 Mt Wilson</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Vetter/Cards/194 Mt Wilson.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.028577</longitude>
+        <latitude>34.297066</latitude>
+        <altitude>3</altitude>
+        <heading>200</heading>
+        <tilt>80</tilt>
+        <range>50</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        </LookAt>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-118.061465,34.224052,3</coordinates>
+        </Point>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+    <Placemark>
+      <name>194 Mt Wilson</name>
+      <description>Dist 5.4 mi</description>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.028577,34.297066,3 -118.061465,34.224052,3
+          </coordinates>
+        </LineString>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+
+    <Placemark>
+      <name>213 Occidental Peak</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Vetter/Cards/213 Occidental Peak.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.028577</longitude>
+        <latitude>34.297066</latitude>
+        <altitude>3</altitude>
+        <heading>216</heading>
+        <tilt>80</tilt>
+        <range>50</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </LookAt>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-118.083639,34.235000,3</coordinates>
+        </Point>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+    <Placemark>
+      <name>213 Occidental Peak</name>
+      <description>Dist: 5.3 mi</description>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.028577,34.297066,3 -118.083639,34.235000,3
+          </coordinates>
+        </LineString>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+
+    <Placemark>
+      <name>221 Mt Markham</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Vetter/Cards/221 Mt Markham.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.028577</longitude>
+        <latitude>34.297066</latitude>
+        <altitude>3</altitude>
+        <heading>224</heading>
+        <tilt>80</tilt>
+        <range>50</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </LookAt>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-118.098542,34.237361,3</coordinates>
+        </Point>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+    <Placemark>
+      <name>221 Mt Markham</name>
+      <description>Dist: 5.8 mi</description>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.028577,34.297066,3 -118.098542,34.237361,3
+          </coordinates>
+        </LineString>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+
+    <Placemark>
+      <name>224 San Gabriel Peak</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Vetter/Cards/224 San Gabriel Peak.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.028577</longitude>
+        <latitude>34.297066</latitude>
+        <altitude>3</altitude>
+        <heading>227</heading>
+        <tilt>80</tilt>
+        <range>50</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </LookAt>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-118.098549,34.243253,3</coordinates>
+        </Point>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+    <Placemark>
+      <name>224 San Gabriel Peak</name>
+      <description>Dist: 5.5 mi</description>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.028577,34.297066,3 -118.098549,34.243253,3
+          </coordinates>
+        </LineString>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+
+    <Placemark>
+      <name>228 Mt Disappointment</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Vetter/Cards/228 Mt Disappointment.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.028577</longitude>
+        <latitude>34.297066</latitude>
+        <altitude>3</altitude>
+        <heading>231</heading>
+        <tilt>80</tilt>
+        <range>50</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </LookAt>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-118.104715,34.246820,3</coordinates>
+        </Point>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+    <Placemark>
+      <name>228 Mt Disappointment</name>
+      <description>Dist: 5.6 mi</description>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.028577,34.297066,3 -118.104715,34.246820,3
+          </coordinates>
+        </LineString>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+
+    <Placemark>
+      <name>233 Mt Deception</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Vetter/Cards/233 Mt Deception.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.028577</longitude>
+        <latitude>34.297066</latitude>
+        <altitude>3</altitude>
+        <heading>236</heading>
+        <tilt>80</tilt>
+        <range>50</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </LookAt>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-118.114152,34.248661,3</coordinates>
+        </Point>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+    <Placemark>
+      <name>233 Mt Deception</name>
+      <description>Dist: 5.9 mi</description>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.028577,34.297066,3 -118.114152,34.248661,3
+          </coordinates>
+        </LineString>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+
+    <Placemark>
+      <name>244 Mt Lawlor</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Vetter/Cards/244 Mt Lawlor.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.028577</longitude>
+        <latitude>34.297066</latitude>
+        <altitude>3</altitude>
+        <heading>247</heading>
+        <tilt>80</tilt>
+        <range>50</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </LookAt>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-118.103911,34.270681,3</coordinates>
+        </Point>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+    <Placemark>
+      <name>244 Mt Lawlor</name>
+      <description>Dist: 4.7 mi</description>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.028577,34.297066,3 -118.103911,34.270681,3
+          </coordinates>
+        </LineString>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+
+    <Placemark>
+      <name>248 Lawlor/Strawberry Saddle</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Vetter/Cards/248 Lawlor-Strawberry Saddle.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.028577</longitude>
+        <latitude>34.297066</latitude>
+        <altitude>3</altitude>
+        <heading>252</heading>
+        <tilt>80</tilt>
+        <range>50</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </LookAt>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-118.111823,34.274435,3</coordinates>
+        </Point>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+    <Placemark>
+      <name>248 Lawlor/Strawberry Saddle</name>
+      <description>Dist: 5.0 mi</description>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.028577,34.297066,3 -118.111823,34.274435,3
+          </coordinates>
+        </LineString>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+
+    <Placemark>
+      <name>256 Strawberry Peak</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Vetter/Cards/256 Strawberry Peak.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.028577</longitude>
+        <latitude>34.297066</latitude>
+        <altitude>3</altitude>
+        <heading>260</heading>
+        <tilt>80</tilt>
+        <range>50</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </LookAt>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-118.120552,34.283524,3</coordinates>
+        </Point>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+    <Placemark>
+      <name>256 Strawberry Peak</name>
+      <description>Dist: 5.3 mi</description>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.028577,34.297066,3 -118.120552,34.283524,3
+          </coordinates>
+        </LineString>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+
+    <Placemark>
+      <name>260 Josephine Peak</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Vetter/Cards/260 Josephine Peak.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.028577</longitude>
+        <latitude>34.297066</latitude>
+        <altitude>3</altitude>
+        <heading>264</heading>
+        <tilt>80</tilt>
+        <range>50</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </LookAt>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-118.153846,34.285579,3</coordinates>
+        </Point>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+    <Placemark>
+      <name>260 Josephine Peak</name>
+      <description>Dist: 7.2 mi</description>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.028577,34.297066,3 -118.153846,34.285579,3
+          </coordinates>
+        </LineString>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+
+    <Placemark>
+      <name>269 Yerba Buena Ridge</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Vetter/Cards/269 Yerba Buena Ridge.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.028577</longitude>
+        <latitude>34.297066</latitude>
+        <altitude>3</altitude>
+        <heading>272</heading>
+        <tilt>80</tilt>
+        <range>50</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </LookAt>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-118.298392,34.303971,3</coordinates>
+        </Point>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+    <Placemark>
+      <name>269 Yerba Buena Ridge</name>
+      <description>Dist: 15.4 mi</description>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.028577,34.297066,3 -118.298392,34.303971,3
+          </coordinates>
+        </LineString>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+
+    <Placemark>
+      <name>274 Fox Mtn</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Vetter/Cards/274 Fox Mtn.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.028577</longitude>
+        <latitude>34.297066</latitude>
+        <altitude>3</altitude>
+        <heading>277</heading>
+        <tilt>80</tilt>
+        <range>50</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </LookAt>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-118.191997,34.313015,3</coordinates>
+        </Point>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+    <Placemark>
+      <name>274 Fox Mtn</name>
+      <description>Dist: 9.4 mi</description>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.028577,34.297066,3 -118.191997,34.313015,3
+          </coordinates>
+        </LineString>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+
+    <Placemark>
+      <name>277 Condor Peak</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Vetter/Cards/277 Condor Peak.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.028577</longitude>
+        <latitude>34.297066</latitude>
+        <altitude>3</altitude>
+        <heading>280</heading>
+        <tilt>80</tilt>
+        <range>50</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </LookAt>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-118.217638,34.325505,3</coordinates>
+        </Point>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+    <Placemark>
+      <name>277 Condor Peak</name>
+      <description>Dist: 11.0 mi</description>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.028577,34.297066,3 -118.217638,34.325505,3
+          </coordinates>
+        </LineString>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+
+    <Placemark>
+      <name>285 Iron Mtn (near Condor Peak)</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Vetter/Cards/285 Iron Mtn (near Condor Peak).jpg">]]></description>
+      <LookAt>
+        <longitude>-118.028577</longitude>
+        <latitude>34.297066</latitude>
+        <altitude>3</altitude>
+        <heading>288</heading>
+        <tilt>80</tilt>
+        <range>50</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </LookAt>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-118.228032,34.348614,3</coordinates>
+        </Point>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+    <Placemark>
+      <name>285 Iron Mtn (near Condor Peak)</name>
+      <description>Dist: 11.9 mi</description>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.028577,34.297066,3 -118.228032,34.348614,3
+          </coordinates>
+        </LineString>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+
+    <Placemark>
+      <name>300 Mt Gleason</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Vetter/Cards/300 Mt Gleason.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.028577</longitude>
+        <latitude>34.297066</latitude>
+        <altitude>3</altitude>
+        <heading>303</heading>
+        <tilt>80</tilt>
+        <range>50</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </LookAt>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-118.174084,34.375976,3</coordinates>
+        </Point>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+    <Placemark>
+      <name>300 Mt Gleason</name>
+      <description>Dist: 9.9 mi</description>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.028577,34.297066,3 -118.174084,34.375976,3
+          </coordinates>
+        </LineString>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+
+    <Placemark>
+      <name>306 Iron Mountain (above Monte Cristo)</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Vetter/Cards/306 Iron Mountain (above Monte Cristo).jpg">]]></description>
+      <visibility>0</visibility>
+      <LookAt>
+        <longitude>-118.028577</longitude>
+        <latitude>34.297066</latitude>
+        <altitude>3</altitude>
+        <heading>309</heading>
+        <tilt>80</tilt>
+        <range>50</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        </LookAt>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-118.090199,34.338254,3</coordinates>
+        </Point>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+    <Placemark>
+      <name>306 Iron Mountain (above Monte Cristo)</name>
+      <visibility>0</visibility>
+      <description>Dist: 4.5 mi</description>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.028577,34.297066,3 -118.090199,34.338254,3
+          </coordinates>
+        </LineString>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+
+    <Placemark>
+      <name>327 Roundtop</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Vetter/Cards/327 Roundtop.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.028577</longitude>
+        <latitude>34.297066</latitude>
+        <altitude>3</altitude>
+        <heading>330</heading>
+        <tilt>80</tilt>
+        <range>50</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </LookAt>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>-118.067895,34.352367,3</coordinates>
+        </Point>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+    <Placemark>
+      <name>327 Roundtop</name>
+      <description>Dist: 4.4 mi</description>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+					-118.028577,34.297066,3 -118.067895,34.352367,3
+          </coordinates>
+        </LineString>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+
+    <Placemark>
+      <name>332 Granite Mtn</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Vetter/Cards/332 Granite Mtn.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.028577</longitude>
+        <latitude>34.297066</latitude>
+        <altitude>3</altitude>
+        <heading>335</heading>
+        <tilt>80</tilt>
+        <range>50</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </LookAt>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-118.07225,34.371616,3</coordinates>
+        </Point>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+    <Placemark>
+      <name>332 Granite Mtn</name>
+      <description>Dist: 5.7 mi</description>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.028577,34.297066,3 -118.07225,34.371616,3
+          </coordinates>
+        </LineString>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+
+    <Placemark>
+      <name>340 Loomis Ranch</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Vetter/Cards/340 Loomis Ranch.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.028577</longitude>
+        <latitude>34.297066</latitude>
+        <altitude>3</altitude>
+        <heading>342</heading>
+        <tilt>80</tilt>
+        <range>50</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </LookAt>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-118.048449,34.346398,3</coordinates>
+        </Point>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+    <Placemark>
+      <name>340 Loomis Ranch</name>
+      <description>Dist: 3.6 mi</description>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.028577,34.297066,3 -118.048449,34.346398,3
+          </coordinates>
+        </LineString>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+
+    <Placemark>
+      <name>354 Pacifico Mtn</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Vetter/Cards/354 Pacifico Mtn.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.028577</longitude>
+        <latitude>34.297066</latitude>
+        <altitude>3</altitude>
+        <heading>357</heading>
+        <tilt>80</tilt>
+        <range>50</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </LookAt>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-118.034524,34.381896,3</coordinates>
+        </Point>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+    <Placemark>
+      <name>354 Pacifico Mtn</name>
+      <description>Dist: 5.9 mi</description>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.028577,34.297066,3 -118.034524,34.381896,3
+          </coordinates>
+        </LineString>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+
+    <Placemark>
+      <name>356 Upper Chilao Flat - Fire Stn</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Vetter/Cards/356 Upper Chilao Flat - Fire Stn.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.028577</longitude>
+        <latitude>34.297066</latitude>
+        <altitude>3</altitude>
+        <heading>5</heading>
+        <tilt>80</tilt>
+        <range>50</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </LookAt>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-118.024930,34.333582,3</coordinates>
+        </Point>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+    <Placemark>
+      <name>356 Upper Chilao Flat - Fire Stn</name>
+      <description>Dist: 2.5 mi</description>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.028577,34.297066,3 -118.024930,34.333582,3
+          </coordinates>
+        </LineString>
+      <styleUrl>#vetter_style</styleUrl>
+      </Placemark>
+    </Folder>
+
+
+
+<!--
+  <Folder>
+    <name>Xtra</name>
+    <open>0</open>
+    <visibility>0</visibility>
+    <description>Candidate(?) landmarks</description>
+
+    <Placemark>
+      <name>042 Pleasant View Ridge 2</name>
+      <visibility>0</visibility>
+      <description>Dist: 9 mi</description>
+      <LookAt>
+        <longitude>-118.028577</longitude>
+        <latitude>34.297066</latitude>
+        <altitude>3</altitude>
+        <heading>42</heading>
+        <tilt>80</tilt>
+        <range>50</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        </LookAt>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-117.919792,34.396478,3</coordinates>
+        </Point>
+      </Placemark>
+    <Placemark>
+      <name>042 Pleasant View Ridge 2</name>
+      <visibility>0</visibility>
+      <description>Dist: 9 mi</description>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.028577,34.297066,3 -117.919756,34.396512,3
+          </coordinates>
+        </LineString>
+      </Placemark>
+
+    <Placemark>
+      <name>042 Mt ????</name>
+      <visibility>0</visibility>
+      <description>Dist: 4.9 mi</description>
+      <LookAt>
+        <longitude>-118.028577</longitude>
+        <latitude>34.297066</latitude>
+        <altitude>3</altitude>
+        <heading>42</heading>
+        <tilt>80</tilt>
+        <range>50</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        </LookAt>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-117.970663,34.349857,3</coordinates>
+        </Point>
+      </Placemark>
+    <Placemark>
+      <name>042 Mt ????</name>
+      <visibility>0</visibility>
+      <description>Dist: 4.9 mi</description>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.028577,34.297066,3 -117.970633,34.349881,3
+          </coordinates>
+        </LineString>
+      </Placemark>
+
+    <Placemark>
+      <name>049 ??? Ridge</name>
+      <visibility>0</visibility>
+      <description>Dist: 4.5 mi</description>
+      <LookAt>
+        <longitude>-118.028577</longitude>
+        <latitude>34.297066</latitude>
+        <altitude>3</altitude>
+        <heading>49</heading>
+        <tilt>80</tilt>
+        <range>50</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        </LookAt>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        </LookAt>
+        <coordinates>-117.967704,34.340076,3</coordinates>
+        </Point>
+      </Placemark>
+    <Placemark>
+      <name>049 ??? Ridge</name>
+      <visibility>0</visibility>
+      <description>Dist: 4.5 mi</description>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.028577,34.297066,3 -117.967720,34.340007,3
+          </coordinates>
+        </LineString>
+      </Placemark>
+
+    <Placemark>
+      <name>051 Winston Peak</name>
+      <visibility>0</visibility>
+      <description>Dist: 6.25 mi</description>
+      <LookAt>
+        <longitude>-118.028577</longitude>
+        <latitude>34.297066</latitude>
+        <altitude>3</altitude>
+        <heading>51</heading>
+        <tilt>80</tilt>
+        <range>50</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        </LookAt>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-117.936457,34.358124,3</coordinates>
+        </Point>
+      </Placemark>
+    <Placemark>
+      <name>051 Winston Peak</name>
+      <visibility>0</visibility>
+      <description>Dist: 6.25 mi</description>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.028577,34.297066,3 -117.935794,34.358405,3
+          </coordinates>
+        </LineString>
+      </Placemark>
+
+    <Placemark>
+      <name>094 Smith Mtn</name>
+      <visibility>0</visibility>
+      <LookAt>
+        <longitude>-117.863564</longitude>
+        <latitude>34.281262</latitude>
+        <altitude>3</altitude>
+        <heading>94</heading>
+        <tilt>80</tilt>
+        <range>50</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        </LookAt>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-117.866231,34.281766,3</coordinates>
+        </Point>
+      </Placemark>
+    <Placemark>
+      <name>094 Smith Mtn</name>
+      <description>Dist: 9.5 mi</description>
+      <visibility>0</visibility>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.028577,34.297066,3 -117.863564,34.281262,3
+          </coordinates>
+        </LineString>
+      </Placemark>
+
+    <Placemark>
+      <name>097 Ontario Peak</name>
+      <visibility>0</visibility>
+      <LookAt>
+        <longitude>-118.028577</longitude>
+        <latitude>34.297066</latitude>
+        <altitude>3</altitude>
+        <heading>97</heading>
+        <tilt>80</tilt>
+        <range>50</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        </LookAt>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-117.624435,34.227809,3</coordinates>
+        </Point>
+      </Placemark>
+    <Placemark>
+      <name>097 Ontario Peak</name>
+      <visibility>0</visibility>
+      <description>Dist: 23.6 mi</description>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.028577,34.297066,3 -117.624435,34.227809,3
+          </coordinates>
+        </LineString>
+      </Placemark>
+
+    </Folder>
+-->
+  </Document>
+</kml>

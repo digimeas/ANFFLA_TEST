@@ -1,0 +1,224 @@
+
+/*
+     Tag ...
+    #Id ...
+    .Class ...
+/* */
+
+    /*  for seeing where everything REALLY is.  WHAT. A. PAIN!  */
+  /* body,  div,  h1, h2, h3,  p, span,  a,  table, th, tr, td,  input, button,  img  {
+    margin: 1px  !important;
+    border: 1px solid #0000AA  !important;
+    }    /*  */
+
+
+   body  {
+    align-items: center;                         /*  CENTER ALL THE THINGS!!!  */
+    /*  width:       100%;    /* */
+    /*  height:      100%;    /* */
+    text-align: center;
+    color: #006000;
+    font-weight: bold;
+    margin: 2px;
+    background-color: rgb(219, 213, 148);        /*  == #DBD594  from ANFFLA website  */
+    }
+  h1, h2, h3 {
+    margin: 6px;
+    }
+  img {
+    display: block;
+    }
+  table, tr, td {
+    width:   100%;
+    height:  100%;
+    }
+
+
+  textarea {
+    font-size:     100%;
+    font-weight:   normal;
+    margin:         0px;
+    width:          100%;
+    }
+/* */
+
+  div, p, img, form, table, tbody, tfoot, thead, tr, th, td,
+    header, hgroup {
+  	overflow: hidden;      /*  doesn't really hide stuff (!?) but sizes the container to fit the contents.  sigh.  */
+    }
+
+  div, p, img, form, table, tbody, tfoot, thead, tr, th, td,
+    header, hgroup {
+    box-sizing: border-box;
+
+    }
+
+	#hdrIntro {
+	  display: block;
+	  }
+  .hIntro {                            /*  opening site-selection page headers  */
+    margin: 2ch;
+	  }
+  .aIntro {                            /*  opening site-selection page links  */
+    font-size: 125%;
+    display: inline-block;
+    margin: 2ch;
+    }
+  /*
+  #sitesMenu {
+    font-size: 130%;
+    text-align: center;
+    justify-content: center;
+    }
+  /* */
+
+	#divWork {
+	  display: none;
+	  height:  100%;
+	  }
+
+
+      /*  #LeftCol_ThreeRows contains:    top:     Headers;
+                                          middle:  areas/shapes, and extra link (and debug stuff);
+                                          bottom:  bearing &  <- buttons ->  */
+  #LeftCol_ThreeRows {
+    width: 100%;
+    height:252px;                      /*  250px + 2*1px border  */
+    min-height:252px;
+    max-height:252px;
+    }    /* */
+
+
+      /*  #RightColumn contains four <DIV>s.
+            Teaser text to prompt clicking
+            Card <IMG>s of the landmarks
+            Movie if there is one
+            Title of the <AREA> if none of the above
+            The img shows the pop-up cards and the div shows text  */
+  #divCards, #divTeaser, #divMovie, #divTitle {    /*  all ocuppy the same area  */
+    /*  justify-content: center;  */
+    width: 350px;
+    height:250px;
+    min-width: 350px;
+    min-height:250px;
+    border: solid 1px #008000;  /* */
+    border-radius: 6px;
+    }
+  #Cards, #Teaser, #Movie, #TitleText, #FaderText {
+    width: 100%;
+    height:100%;
+    min-width: 100%;
+    min-height:100%;
+    text-align:         center;  /* */
+    border-radius:      6px;
+    text-align:         center;
+    vertical-align:     middle;
+    font-style:         italic;
+    font-weight:        bold;
+    }
+  #Teaser {
+    background-color:   #DDDDDD;       /*  color ~= card gray  :-)  */
+    font-size: 120%;
+    }
+  #TitleText {
+    background-color:   #DDDDDD;       /*  color ~= card gray  :-)  */
+    font-size: 120%;
+    }
+  #divCards, #divMovie, #divTitle, #divFader {
+    display: none;                     /*  only one of #divTeaser or #divCards or #divMovie or #divTitle is displayed at once  */
+    }
+  #divTeaser {
+    display: inline-block;             /*  start off with the teaser.  toggled in flashCards()  */
+    }
+
+
+  #BoxBox {                            /*  options checkboxes box */
+    display:table-cell; font-size:100%; font-weight:normal;
+    padding:5px;   padding-right:20px;
+    text-align:left; vertical-align:bottom;
+    }
+  .optBox  {                           /*  options checkboxes */
+    text-align:left;
+    }
+
+  #Bearings {
+    border: #006000 1px solid;
+    border-radius:3px;
+    padding:1px;
+    background-color:  rgba(219, 213, 148,  .66);    /*  Edge and Chrome don't speak #RGBa !?  */
+    }
+  .BrgBtns {
+    background-color:    #DBD594;
+    font-weight: bold;
+    margin: 1px; padding: 1px; border: 1px solid #008000; border-radius: 2px;
+    font-size: 100%;
+    vertical-align:  middle;
+    }
+  #Bearing {
+    width:12ch;                        /*  "Bearing: 000" = 12 char  */
+    font-weight:normal; font-size:110%;
+    padding:2px;
+    vertical-align:  middle;
+    }
+
+      /*  Panorama img and canvas */
+  #divPano {                                    /*  container for the panorama image and the overlying canvas  */
+    position:relative;                          /*  so #cvspano has something to 'absolute' to  */
+    width:  100%;
+    overflow: auto;
+    }
+  #cvsPano {                                    /*  panorama canvas  */
+    pointer-events: none;                        /*  make the canvas transparent to the mouse - needed since canvas z-position is in front of image */
+    position: absolute;                         /*  nailed to #imgPano after it's loaded  */
+    }
+
+  #Toast {
+    position: absolute;   top: 101%; left: 10%;   z-index:5;        /*  left: 10%;    */
+    display: block;
+    background-color:   #DBD594;
+    height:             30px;
+    font-size:          120%;
+    text-align:         center;
+    font-weight:        bold;
+    border:              2px solid #008000;
+    border-radius:      2px;
+    padding:             5px;
+    }
+
+  #makeInstructions {
+    background-color:   rgba(256, 255, 255, .6);
+    font-size:          100%;
+    /*  font-style:         italic;  */
+    font-weight:        bold;
+    }
+
+      /*  stuff not displayed until requested  */
+  .clsShapeShifter {                             /*  For shape making  */
+    display:none;
+    }
+  .clsTextOut {                                  /*  For results of shape making  */
+    display:none;
+    }
+  .Made {
+    display:none;                               /*  For results of results of shape making  */
+    }
+  .clsDebugs {                                   /*  For, well, you know  */
+    display:none;
+    }
+
+  #mailBtn {
+    width:100%; height:33px;  font-size:120%;    border: solid 3px #008000; border-radius:9px;
+    background-color:  #E0E0A0;
+    }
+  #mailBtn:hover { background-color:#E0FFA0; }
+
+      /*  messing.  just messing.  (vs #dbd594) */
+  .bugz {
+    float:right;  font-size:70%;  color:#668866;   }
+    /* a.bugz:link    { font-size:70%;  color:#668866; }  */
+    /* a.bugz:visited { font-size:70%;  color:#668866; }  */
+  a.bugz:hover {font-size:80%;  color:#008000;  }
+/* */
+
+
+

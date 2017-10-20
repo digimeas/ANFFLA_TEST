@@ -1,0 +1,1133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+  <name>Slide Sightlines Earth.kml</name>
+  <open>1</open>
+
+  <StyleMap id="slide_style">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#slide_style_n</styleUrl>
+      </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#slide_style_h</styleUrl>
+      </Pair>
+    </StyleMap>
+
+  <Style id="slide_style_n">
+    <IconStyle>
+      <color>aaffffaa</color>
+      <scale>1.0</scale>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
+        </Icon>
+      </IconStyle>
+    <LabelStyle>
+      <color>80ffffff</color>
+      <scale>0.8</scale>
+      </LabelStyle>
+    <LineStyle>
+      <color>aaffffaa</color>
+      <width>1.5</width>
+      </LineStyle>
+    </Style>
+
+  <Style id="slide_style_h">
+    <IconStyle>
+      <color>aaffffaa</color>
+      <scale>2.5</scale>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
+        </Icon>
+      </IconStyle>
+    <LabelStyle>
+      <color>80ffffff</color>
+      <scale>1.33333</scale>
+      </LabelStyle>
+    <LineStyle>
+      <color>aaffffaa</color>
+      <width>3</width>
+      </LineStyle>
+    </Style>
+
+
+
+
+
+  <Folder>
+    <name>Slide Mountain Sightlines</name>
+    <open>1</open>
+
+    <Placemark>
+      <name>Slide Mountain FLO</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Slide/Links/slide-mountain-tower.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.7778</longitude>
+        <latitude>34.6329</latitude>
+        <altitude>3</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>111</range>
+      </LookAt>
+      <styleUrl>#slide_style</styleUrl>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-118.7778,34.6329,3</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>009 West Fork Liebre Gulch</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Slide/Cards/028 Liebre Gulch Bridge.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.7778</longitude>
+        <latitude>34.6329</latitude>
+        <altitude>3</altitude>
+        <heading>9</heading>
+        <tilt>80</tilt>
+        <range>30</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        </LookAt>
+      <styleUrl>#slide_style</styleUrl>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-118.763905,34.695385,1</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>009 West Fork Liebre Gulch</name>
+      <description>Dist: 3-6 mi</description>
+      <styleUrl>#slide_style</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.7778,34.6329,3 -118.763905,34.695385,1
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>021 Bald Mountain</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Slide/Cards/021 Bald Mountain.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.7778</longitude>
+        <latitude>34.6329</latitude>
+        <altitude>3</altitude>
+        <heading>21</heading>
+        <tilt>80</tilt>
+        <range>30</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        </LookAt>
+      <styleUrl>#slide_style</styleUrl>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-118.727844,34.744429,1</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>021 Bald Mountain</name>
+      <description>Dist: 7.5 mi</description>
+      <styleUrl>#slide_style</styleUrl>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.7778,34.6329,3 -118.727844,34.744429,1
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>027 Vista del Lago Heliport</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Slide/Cards/027 Vista del Lago Heliport.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.7778</longitude>
+        <latitude>34.6329</latitude>
+        <altitude>3</altitude>
+        <heading>27</heading>
+        <tilt>70</tilt>
+        <range>30</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        </LookAt>
+      <styleUrl>#slide_style</styleUrl>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-118.762271,34.659628,1</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>027 Vista del Lago Heliport</name>
+      <description>Dist: 2.5 mi</description>
+      <styleUrl>#slide_style</styleUrl>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.7778,34.6329,3 -118.762271,34.659628,1
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>027 Liebre Gulch (Proper)</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Slide/Cards/027 Liebre Gulch (Proper).jpg">]]></description>
+      <LookAt>
+        <longitude>-118.7778</longitude>
+        <latitude>34.6329</latitude>
+        <altitude>3</altitude>
+        <heading>27</heading>
+        <tilt>80</tilt>
+        <range>30</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        </LookAt>
+      <styleUrl>#slide_style</styleUrl>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-118.752399,34.667244,1</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>027 Liebre Gulch (Proper)</name>
+      <description>Dist: 2.5 - 6 mi</description>
+      <styleUrl>#slide_style</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.7778,34.6329,3 -118.752399,34.667244,1
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>028 Liebre Gulch Bridge</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Slide/Cards/028 Liebre Gulch Bridge.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.7778</longitude>
+        <latitude>34.6329</latitude>
+        <altitude>3</altitude>
+        <heading>28</heading>
+        <tilt>80</tilt>
+        <range>30</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        </LookAt>
+      <styleUrl>#slide_style</styleUrl>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-118.738084,34.695491,1</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>028 Liebre Gulch Bridge</name>
+      <description>Dist: 4.5 mi</description>
+      <styleUrl>#slide_style</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.7778,34.6329,3 -118.738084,34.695491,1
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>048 Liebre Mountain</name>
+      <description>Dist: 8.6 mi</description>
+      <LookAt>
+        <longitude>-118.7778</longitude>
+        <latitude>34.6329</latitude>
+        <altitude>3</altitude>
+        <heading>48</heading>
+        <tilt>80</tilt>
+        <range>30</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        </LookAt>
+      <styleUrl>#slide_style</styleUrl>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-118.664431,34.716364,1</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>048 Liebre Mountain</name>
+      <description>Dist: 8.6 mi</description>
+      <styleUrl>#slide_style</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.7778,34.6329,3 -118.664431,34.716364,1
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>050 Posey Canyon</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Slide/Cards/028 Liebre Gulch Bridge.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.7778</longitude>
+        <latitude>34.6329</latitude>
+        <altitude>3</altitude>
+        <heading>50</heading>
+        <tilt>80</tilt>
+        <range>30</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        </LookAt>
+      <styleUrl>#slide_style</styleUrl>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-118.748345,34.652588,1</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>050 Posey Canyon</name>
+      <description>Dist: 2 - 4 mi</description>
+      <styleUrl>#slide_style</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.7778,34.6329,3 -118.748345,34.652588,1
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>058 Reservoir Summit</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Slide/Cards/058 Reservoir Summit.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.7778</longitude>
+        <latitude>34.6329</latitude>
+        <altitude>3</altitude>
+        <heading>58</heading>
+        <tilt>80</tilt>
+        <range>30</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        </LookAt>
+      <styleUrl>#slide_style</styleUrl>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-118.725767,34.661512,1</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>058 Reservoir Summit</name>
+      <description>Dist: 3.6 mi</description>
+      <styleUrl>#slide_style</styleUrl>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.7778,34.6329,3 -118.725767,34.661512,1
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>073 Burnt Peak</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Slide/Cards/073 Burnt Peak.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.7778</longitude>
+        <latitude>34.6329</latitude>
+        <altitude>3</altitude>
+        <heading>73</heading>
+        <tilt>80</tilt>
+        <range>30</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        </LookAt>
+      <styleUrl>#slide_style</styleUrl>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-118.576939,34.682752,1</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>073 Burnt Peak</name>
+      <description>Dist: 12 mi</description>
+      <styleUrl>#slide_style</styleUrl>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.7778,34.6329,3 -118.576939,34.682752,1
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>083 Redrock Mountain</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Slide/Cards/083 Redrock Mountain.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.7778</longitude>
+        <latitude>34.6329</latitude>
+        <altitude>3</altitude>
+        <heading>77</heading>
+        <tilt>80</tilt>
+        <range>30</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        </LookAt>
+      <styleUrl>#slide_style</styleUrl>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-118.640094,34.658823,1</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>083 Redrock Mountain</name>
+      <description>Dist: 8 mi</description>
+      <styleUrl>#slide_style</styleUrl>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.7778,34.6329,3 -118.640094,34.658823,1
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>081 Sawtooth Mountain</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Slide/Cards/081 Sawtooth Mountain.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.7778</longitude>
+        <latitude>34.6329</latitude>
+        <altitude>3</altitude>
+        <heading>81</heading>
+        <tilt>80</tilt>
+        <range>30</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        </LookAt>
+      <styleUrl>#slide_style</styleUrl>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-118.560984,34.659380,1</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>081 Sawtooth Mountain</name>
+      <description>Dist: 13 mi</description>
+      <styleUrl>#slide_style</styleUrl>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.7778,34.6329,3 -118.560984,34.659380,1
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>087 Cherry Canyon</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Slide/Cards/087 Cherry Canyon.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.7778</longitude>
+        <latitude>34.6329</latitude>
+        <altitude>3</altitude>
+        <heading>87</heading>
+        <tilt>70</tilt>
+        <range>30</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        </LookAt>
+      <styleUrl>#slide_style</styleUrl>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-118.754469,34.640566,1</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>087 Cherry Canyon</name>
+      <description>Dist: 2 - 4 mi</description>
+      <styleUrl>#slide_style</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.7778,34.6329,3 -118.754469,34.640566,1
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>100 Osito Canyon</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Slide/Cards/100 Osito Canyon.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.7778</longitude>
+        <latitude>34.6329</latitude>
+        <altitude>3</altitude>
+        <heading>100</heading>
+        <tilt>80</tilt>
+        <range>30</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        </LookAt>
+      <styleUrl>#slide_style</styleUrl>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-118.714745,34.625324,1</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>100 Osito Canyon</name>
+      <description>Dist: 3 mi</description>
+      <styleUrl>#slide_style</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.7778,34.6329,3 -118.714745,34.625324,1
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>101 Warm Springs Mountain</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Slide/Cards/101 Warm Springs Mountain.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.7778</longitude>
+        <latitude>34.6329</latitude>
+        <altitude>3</altitude>
+        <heading>101</heading>
+        <tilt>80</tilt>
+        <range>30</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        </LookAt>
+      <styleUrl>#slide_style</styleUrl>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-118.579716,34.595597,1</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>101 Warm Springs Mountain</name>
+      <description>Dist: 11.6 mi</description>
+      <styleUrl>#slide_style</styleUrl>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.7778,34.6329,3 -118.579716,34.595597,1
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>110 Parker Mountain</name>
+      <description>Dist: 34 mi</description>
+      <LookAt>
+        <longitude>-118.7778</longitude>
+        <latitude>34.6329</latitude>
+        <altitude>3</altitude>
+        <heading>110</heading>
+        <tilt>80</tilt>
+        <range>30</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        </LookAt>
+      <styleUrl>#slide_style</styleUrl>
+      <Point>
+        <coordinates>-118.218904,34.459862,1</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>110 Parker Mountain</name>
+      <description>Dist: 34 mi</description>
+      <styleUrl>#slide_style</styleUrl>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.7778,34.6329,3 -118.218904,34.459862,1
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>110 Mount Baldy</name>
+      <description>Dist: 69 mi</description>
+      <LookAt>
+        <longitude>-118.7778</longitude>
+        <latitude>34.6329</latitude>
+        <altitude>3</altitude>
+        <heading>110</heading>
+        <tilt>80</tilt>
+        <range>30</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        </LookAt>
+      <styleUrl>#slide_style</styleUrl>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-117.646763,34.288854,1</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>110 Mount Baldy</name>
+      <description>Dist: 69 mi</description>
+      <styleUrl>#slide_style</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.7778,34.6329,3 -117.6467719473615,34.288846,1
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>117 Mount Gleason</name>
+      <description>Dist: 38 mi</description>
+      <LookAt>
+        <longitude>-118.7778</longitude>
+        <latitude>34.6329</latitude>
+        <altitude>3</altitude>
+        <heading>117</heading>
+        <tilt>80</tilt>
+        <range>30</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        </LookAt>
+      <styleUrl>#slide_style</styleUrl>
+      <Point>
+        <coordinates>-118.179557,34.378027,1</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>117 Mount Gleason</name>
+      <description>Dist: 38 mi</description>
+      <styleUrl>#slide_style</styleUrl>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.7778,34.6329,3 -118.179557,34.378027,1
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>126 Mount Wilson</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Slide/Cards/126 Mount Wilson.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.7778</longitude>
+        <latitude>34.6329</latitude>
+        <altitude>3</altitude>
+        <heading>126</heading>
+        <tilt>80</tilt>
+        <range>30</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        </LookAt>
+      <styleUrl>#slide_style</styleUrl>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-118.061465,34.224052,1</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>126 Mount Wilson</name>
+      <description>Dist: 50 mi</description>
+      <styleUrl>#slide_style</styleUrl>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.7778,34.6329,3 -118.061465,34.224052,1
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>130 Mount Lukens</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Slide/Cards/130 Mount Lukens.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.7778</longitude>
+        <latitude>34.6329</latitude>
+        <altitude>3</altitude>
+        <heading>129</heading>
+        <tilt>80</tilt>
+        <range>30</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        </LookAt>
+      <styleUrl>#slide_style</styleUrl>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-118.238894,34.268879,1</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>130 Mount Lukens</name>
+      <description>Dist: 29 mi</description>
+      <styleUrl>#slide_style</styleUrl>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.7778,34.6329,3 -118.238894,34.268879,1
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>133 Contract Point</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Slide/Cards/133 Contract Point.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.7778</longitude>
+        <latitude>34.6329</latitude>
+        <altitude>3</altitude>
+        <heading>133</heading>
+        <tilt>80</tilt>
+        <range>30</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        </LookAt>
+      <styleUrl>#slide_style</styleUrl>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-118.406987,34.341650,1</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>133 Contract Point</name>
+      <description>Dist: 29 mi</description>
+      <styleUrl>#slide_style</styleUrl>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.7778,34.6329,3 -118.406987,34.341650,1
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>135 Townsend Peak</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Slide/Cards/135 Townsend Peak.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.7778</longitude>
+        <latitude>34.6329</latitude>
+        <altitude>3</altitude>
+        <heading>136</heading>
+        <tilt>80</tilt>
+        <range>30</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        </LookAt>
+      <styleUrl>#slide_style</styleUrl>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-118.691137,34.559554,1</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>135 Townsend Peak</name>
+      <description>Dist: 7.1 mi</description>
+      <styleUrl>#slide_style</styleUrl>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.7778,34.6329,3 -118.691137,34.559554,1
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>148 Whitaker Peak</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Slide/Cards/148 Whitaker Peak.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.7778</longitude>
+        <latitude>34.6329</latitude>
+        <altitude>3</altitude>
+        <heading>148</heading>
+        <tilt>80</tilt>
+        <range>30</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        </LookAt>
+      <styleUrl>#slide_style</styleUrl>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-118.734374,34.572107,1</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>148 Whitaker Peak</name>
+      <description>Dist: 4.9 mi</description>
+      <styleUrl>#slide_style</styleUrl>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.7778,34.6329,3 -118.734374,34.572107,1
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>171 Lake Piru</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Slide/Cards/171 Lake Piru.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.7778</longitude>
+        <latitude>34.6329</latitude>
+        <altitude>3</altitude>
+        <heading>173</heading>
+        <tilt>80</tilt>
+        <range>30</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        </LookAt>
+      <styleUrl>#slide_style</styleUrl>
+      <Point>
+        <coordinates>-118.752888,34.473688,1</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>171 Lake Piru</name>
+      <description>Dist: 4.9 mi</description>
+      <styleUrl>#slide_style</styleUrl>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.7778,34.6329,3 -118.752888,34.473688,1
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>205 Hopper Mountain</name>
+      <description>Dist: 11.8 mi</description>
+      <LookAt>
+        <longitude>-118.7778</longitude>
+        <latitude>34.6329</latitude>
+        <altitude>3</altitude>
+        <heading>205</heading>
+        <tilt>80</tilt>
+        <range>30</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        </LookAt>
+      <styleUrl>#slide_style</styleUrl>
+      <Point>
+        <coordinates>-118.865381,34.478012,1</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>205 Hopper Mountain</name>
+      <description>Dist: 11.8 mi</description>
+      <styleUrl>#slide_style</styleUrl>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.7778,34.6329,3 -118.865381,34.478012,1
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>252 Cobblestone Mountain</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Slide/Cards/252 Cobblestone Mountain.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.7778</longitude>
+        <latitude>34.6329</latitude>
+        <altitude>3</altitude>
+        <heading>252</heading>
+        <tilt>80</tilt>
+        <range>30</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        </LookAt>
+      <styleUrl>#slide_style</styleUrl>
+      <Point>
+        <coordinates>-118.867183,34.609615,1</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>252 Cobblestone Mountain</name>
+      <description>Dist: 5.3 mi</description>
+      <styleUrl>#slide_style</styleUrl>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.7778,34.6329,3 -118.867183,34.609615,1
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>260 Dome Mountain</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Slide/Cards/260 Dome Mountain.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.7778</longitude>
+        <latitude>34.6329</latitude>
+        <altitude>3</altitude>
+        <heading>258</heading>
+        <tilt>80</tilt>
+        <range>30</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        </LookAt>
+      <styleUrl>#slide_style</styleUrl>
+      <Point>
+        <coordinates>-118.802388,34.628679,1</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>260 Dome Mountain</name>
+      <description>Dist: 4 mi</description>
+      <styleUrl>#slide_style</styleUrl>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.7778,34.6329,3 -118.802388,34.628679,1
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>284 Alamo Mountain</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Slide/Cards/284 Alamo Mountain.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.7778</longitude>
+        <latitude>34.6329</latitude>
+        <altitude>3</altitude>
+        <heading>284</heading>
+        <tilt>80</tilt>
+        <range>30</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        </LookAt>
+      <styleUrl>#slide_style</styleUrl>
+      <Point>
+        <coordinates>-118.958678,34.666318,1</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>284 Alamo Mountain</name>
+      <description>Dist: 10.6 mi</description>
+      <styleUrl>#slide_style</styleUrl>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.7778,34.6329,3 -118.958678,34.666318,1
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>287 Black Mountain</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Slide/Cards/287 Black Mountain.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.7778</longitude>
+        <latitude>34.6329</latitude>
+        <altitude>3</altitude>
+        <heading>287</heading>
+        <tilt>80</tilt>
+        <range>30</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        </LookAt>
+      <styleUrl>#slide_style</styleUrl>
+      <Point>
+        <coordinates>-118.861886,34.653220,1</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>287 Black Mountain</name>
+      <description>Dist: 5.0 mi</description>
+      <styleUrl>#slide_style</styleUrl>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.7778,34.6329,3 -118.861886,34.653220,1
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>301 Mount Pinos</name>
+      <description>Dist: 24 mi</description>
+      <LookAt>
+        <longitude>-118.7778</longitude>
+        <latitude>34.6329</latitude>
+        <altitude>3</altitude>
+        <heading>301</heading>
+        <tilt>80</tilt>
+        <range>30</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        </LookAt>
+      <styleUrl>#slide_style</styleUrl>
+      <Point>
+        <coordinates>-119.139727,34.809194,1</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>301 Mount Pinos</name>
+      <description>Dist: 24 mi</description>
+      <styleUrl>#slide_style</styleUrl>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.7778,34.6329,3 -119.139727,34.809194,1
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>312 Hard Luck Campground</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Slide/Cards/312 Hard Luck Campground.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.7778</longitude>
+        <latitude>34.6329</latitude>
+        <altitude>3</altitude>
+        <heading>314</heading>
+        <tilt>80</tilt>
+        <range>30</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        </LookAt>
+      <styleUrl>#slide_style</styleUrl>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-118.846969,34.688120,1</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>312 Hard Luck Campground</name>
+      <description>Dist: 4.5 mi</description>
+      <styleUrl>#slide_style</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.7778,34.6329,3 -118.846969,34.688120,1
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>313 Frazier Mountain</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Slide/Cards/313 Frazier Mountain.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.7778</longitude>
+        <latitude>34.6329</latitude>
+        <altitude>3</altitude>
+        <heading>313</heading>
+        <tilt>80</tilt>
+        <range>30</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        </LookAt>
+      <styleUrl>#slide_style</styleUrl>
+      <Point>
+        <coordinates>-118.969227,34.775086,1</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>313 Frazier Mountain</name>
+      <description>Dist: 14.7 mi</description>
+      <styleUrl>#slide_style</styleUrl>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.7778,34.6329,3 -118.969227,34.775086,1
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>334 Freeman Canyon (at Kinsey Ranch)</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Slide/Cards/334 Freeman Canyon (at Kinsey Ranch).jpg">]]></description>
+      <LookAt>
+        <longitude>-118.7778</longitude>
+        <latitude>34.6329</latitude>
+        <altitude>3</altitude>
+        <heading>334</heading>
+        <tilt>80</tilt>
+        <range>30</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        </LookAt>
+      <styleUrl>#slide_style</styleUrl>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-118.823539,34.713864,1</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>334 Freeman Canyon (at Kinsey Ranch)</name>
+      <description>Dist: 6.5 - 10 mi</description>
+      <styleUrl>#slide_style</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.7778,34.6329,3 -118.823539,34.713864,1
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>346 Coyote Canyon</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Slide/Cards/346 Coyote Canyon.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.7778</longitude>
+        <latitude>34.6329</latitude>
+        <altitude>3</altitude>
+        <heading>346</heading>
+        <tilt>80</tilt>
+        <range>30</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        </LookAt>
+      <styleUrl>#slide_style</styleUrl>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-118.791741,34.692382,1</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>346 Coyote Canyon</name>
+      <description>Dist: 5 mi</description>
+      <styleUrl>#slide_style</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.7778,34.6329,3 -118.791741,34.692382,1
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>349 Smokey Bear Interchange</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Slide/Cards/349 Smokey Bear Interchange.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.7778</longitude>
+        <latitude>34.6329</latitude>
+        <altitude>3</altitude>
+        <heading>349</heading>
+        <tilt>80</tilt>
+        <range>30</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        </LookAt>
+      <styleUrl>#slide_style</styleUrl>
+      <Point>
+        <coordinates>-118.796164,34.708017,1</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>349 Smokey Bear Interchange</name>
+      <description>Dist: 5.3 mi</description>
+      <styleUrl>#slide_style</styleUrl>
+      <LineString>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.7778,34.6329,3 -118.796164,34.708017,1
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>355 Apple Canyon</name>
+      <description><![CDATA[<img src="http://www.digimeas.com/ANFFLA/Slide/Cards/355 Apple Canyon.jpg">]]></description>
+      <LookAt>
+        <longitude>-118.7778</longitude>
+        <latitude>34.6329</latitude>
+        <altitude>3</altitude>
+        <heading>346</heading>
+        <tilt>80</tilt>
+        <range>30</range>
+        <altitudeMode>relativeToGround</altitudeMode>
+        </LookAt>
+      <styleUrl>#slide_style</styleUrl>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-118.782178,34.695357,1</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>355 Apple Canyon</name>
+      <description>Dist: 4 - 6 mi</description>
+      <styleUrl>#slide_style</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>
+          -118.7778,34.6329,3 -118.782178,34.695357,1
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+  </Folder>
+</Document>
+</kml>
