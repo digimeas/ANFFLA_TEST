@@ -2,4 +2,4 @@
 
 Landmark trainer for fire lookouts.
 
-Try it here https://digimeas.github.io/anffla_test
+Try it here https://digimeas.github.io/ANFFLA_TEST
